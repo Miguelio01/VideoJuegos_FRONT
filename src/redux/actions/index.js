@@ -16,7 +16,7 @@ export const CLEAN_DATA = 'CLEAN_DATA';
 export function getVideogames() {
 	return async function (dispatch) {
 		try {
-			const json = await axios.get('http://localhost:3001/videogames');
+			const json = await axios.get('/videogames');
 			return dispatch({
 				type: GET_VIDEOGAMES,
 				payload: json.data,
