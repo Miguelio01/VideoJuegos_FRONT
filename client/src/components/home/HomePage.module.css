@@ -1,0 +1,69 @@
+.backg {
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.cads {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 2em;
+}
+
+.pag {
+	color: whitesmoke;
+}
+
+.image {
+	position: fixed;
+	object-fit: cover;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	height: 100vh;
+	width: 100%;
+	align-content: center;
+}
+.filtro {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background-color: rgba(133, 9, 123, 0.56);
+	box-shadow: 0 8px 32px 0 rgba(219, 155, 221, 0.442);
+	backdrop-filter: blur(3px);
+	padding: 0.5rem;
+	box-sizing: border-box;
+
+	border: 1px solid transparent;
+
+	color: whitesmoke;
+}
+
+.contenFil {
+	display: flex;
+	flex-direction: column;
+}
+
+.label {
+	color: whitesmoke;
+	font-size: 1em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+
+select-selected {
+	background-color: DodgerBlue;
+}
+
+select {
+	background-color: rgba(2, 217, 255, 0.56);
+	box-shadow: 0 8px 32px 0 rgba(219, 155, 221, 0.442);
+	backdrop-filter: blur(3px);
+	border: 1px solid transparent;
+	border-radius: 5px;
+	padding: 2px;
+	color: whitesmoke;
+}
