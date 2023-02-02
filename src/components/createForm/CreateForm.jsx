@@ -91,7 +91,7 @@ export default function CreateForm() {
 		background_image: '',
 	});
 
-	const handleSelect = (e) => {};
+	// const handleSelect = (e) => {};
 
 	const handlePlatforms = (e) => {
 		if (e.target.checked) {
